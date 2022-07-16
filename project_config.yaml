@@ -1,0 +1,42 @@
+root_folder: machine-learning-3265121
+
+mongodb:
+  is_cloud: 0
+  user_name: avnyadav
+  password: Aa327030
+  url: mongodb+srv://{0}:{1}@cluster0:wz7et:mongodb:net/myFirstDatabase?authSource=admin&replicaSet=atlas-uv8eug-shard-0&w=majority&readPreference=primary&appname=MongoDB%20Compass&retryWrites=true&ssl=true
+
+cloud_storage:
+  azure_blob_storage:
+    connection_str: DefaultEndpointsProtocol=https;AccountName=mlstorage327030;AccountKey=gEov6ddj3W7/eBsXk38oEqKmw3mYaqIkAqb3EIQsyDrZRcJVBKG3x4EzRnEP/mPfYSH070Yd5mkJPh20xCMwdw==;EndpointSuffix=core.windows.net
+  aws_s3_bucket:
+    name: aws_access_key
+    Access Key ID: AKIAQLOZZIL6AO6IOTMP
+    Secret Access Key: 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
+    description: AWS credentials
+
+  gcp: gcp.json
+    
+watcher_checkpoint_storage_account_connection_str:
+  connection_str: DefaultEndpointsProtocol=https;AccountName=storageaccountrgai1a757;AccountKey=j4TYtRYwIDyUNL4lKXXIfYgCftrTbJPhPHC8i/j66XSf6s81ruCaQqDnjh5WDMjrqqc4hulvZ8wxcYQb8KfukA==;EndpointSuffix=core.windows.net
+
+azure_input_file_storage_connection_str:
+  connection_str: DefaultEndpointsProtocol=https;AccountName=inputfilestorage;AccountKey=u2jUt3DLgsPiZO8S7kZ1yk4B7FJ6gCtdTeckaige1AXTnyPA1zby1w0n6HUi/2cdOAoo5E1jXrEeofyI6UDtFw==;EndpointSuffix=core.windows.net
+
+event_hub_name_space:
+  connection_str: Endpoint=sb://avnish327030.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=BwK0zozJe+Oz46F5BgpHUtq5zkzqMKCzPdc2kOg2WW8=
+
+
+session:
+  secret-key: ec6935d1-0e2c-4998-b7ed-809e8cb0fcda
+
+user_detail:
+  email_id: avnish@ineuron.ai
+  role_id: 1
+
+email_config:
+  sender_email_id: yadav.tara.avnish@gmail.com
+  passkey: ysdxtzfrnnugdqke
+  receiver_email_id:
+    - yadav.tara.avnish@gmail.com
+    - anishyadav7045075175@gmail.com

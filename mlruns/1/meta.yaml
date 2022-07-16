@@ -1,0 +1,4 @@
+artifact_location: file:///D:/Mission%20150/fitbit/fitbit/mlruns/1
+experiment_id: '1'
+lifecycle_stage: active
+name: ModelSearchBegin

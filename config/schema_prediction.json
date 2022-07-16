@@ -1,0 +1,23 @@
+{	"SampleFileName": "fitbit_26092020_131534.csv",
+	"LengthOfDateStampInFile": 8,
+	"LengthOfTimeStampInFile": 6,
+	"NumberofColumns" : 14,
+	"ColName": {"Id": "int64",
+     "ActivityDate": "O",
+     "TotalSteps": "int64",
+     "TotalDistance": "float64",
+     "TrackerDistance": "float64",
+     "LoggedActivitiesDistance": "float64",
+     "VeryActiveDistance": "float64",
+     "ModeratelyActiveDistance": "float64",
+     "LightActiveDistance": "float64",
+     "SedentaryActiveDistance": "float64",
+     "VeryActiveMinutes": "int64",
+     "FairlyActiveMinutes": "int64",
+     "LightlyActiveMinutes": "int64",
+     "SedentaryMinutes": "int64"
+     }
+
+
+}
+ 

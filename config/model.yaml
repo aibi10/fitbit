@@ -1,0 +1,53 @@
+grid_search:
+  module: sklearn.model_selection
+  class: GridSearchCV
+  params:
+    cv: 3
+    verbose: 1
+
+clustering:
+  module: sklearn.cluster
+  class: KMeans
+  params:
+    init: k-means++
+    random_state: 10
+  search_cluster:
+    start: 1
+    stop: 11
+
+
+stack:
+  layer_0:
+    - model_0
+    - model_1
+  layer_1:
+    - model_1
+
+stack_output_layer: layer_1
+
+model_selection:
+  model_0:
+    module: sklearn.tree
+    class: DecisionTreeRegressor
+    search_param_grid:
+      max_depth:
+        - 2
+        - 3
+        - 4
+        - 5
+        - 6
+        - 7
+        - 8
+        - 9
+  model_1:
+    module: sklearn.ensemble
+    class: ExtraTreesRegressor
+    search_param_grid:
+      max_depth:
+        - 2
+        - 3
+        - 4
+        - 5
+        - 6
+        - 7
+        - 8
