@@ -1,18 +1,18 @@
-root_folder: machine-learning-3265121
+root_folder: maibi010
 
 mongodb:
   is_cloud: 0
-  user_name: avnyadav
-  password: Aa327030
+  user_name: aibi
+  password: letsflyveryhigh
   url: mongodb+srv://{0}:{1}@cluster0:wz7et:mongodb:net/myFirstDatabase?authSource=admin&replicaSet=atlas-uv8eug-shard-0&w=majority&readPreference=primary&appname=MongoDB%20Compass&retryWrites=true&ssl=true
 
 cloud_storage:
   azure_blob_storage:
-    connection_str: DefaultEndpointsProtocol=https;AccountName=mlstorage327030;AccountKey=gEov6ddj3W7/eBsXk38oEqKmw3mYaqIkAqb3EIQsyDrZRcJVBKG3x4EzRnEP/mPfYSH070Yd5mkJPh20xCMwdw==;EndpointSuffix=core.windows.net
+    connection_str: DefaultEndpointsProtocol=https;AccountName=aibi;AccountKey=oWl7MKVKjp93oa9qfo3051uQRR1zgusbCR3FBWZziD2UWdacAodHdPXPB0AzbBvjZBggvcw6z7yu+AStafs9LA==;EndpointSuffix=core.windows.net
   aws_s3_bucket:
     name: aws_access_key
-    Access Key ID: AKIAQLOZZIL6AO6IOTMP
-    Secret Access Key: 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
+    Access Key ID: AKIAXXK3P7MCSNDS6QWG
+    Secret Access Key: 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
     description: AWS credentials
 
   gcp: gcp.json
